@@ -21,13 +21,7 @@
 					return false;
 					
 				}
-				/*if(myform.code.value==""){
-					alert("请输入验证码");
-					myform.code.focus();
-					exit();
-					return false;
-					
-				}*/
+
 			}
 	</script>
 </head>
