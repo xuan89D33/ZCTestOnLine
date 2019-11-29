@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 	header ( "Content-type: text/html; charset=utf-8" );  	
 session_start();
 	include ("conn.php");
@@ -20,6 +20,7 @@ session_start();
 			exit();
 			}
 		}
+
 		if(isset($_POST['submit3'])){
 			mysqli_select_db($conn,"topic");
 			$sql = "DELETE from topic WHERE id='".$_POST['id']."'";
