@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     session_start();
     include('conn.php');
     include('page.class.php');
@@ -24,6 +24,7 @@
        return false;
 
  }
+
 
 }
  </script>
